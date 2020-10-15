@@ -1,11 +1,8 @@
-import React from 'react';
-import Barcode_app from './component/barcode'
+import barcode_gen from './component/barcode_gen';
 
 function App() {
-  return (
-    <div id="homepage">
-      <Barcode_app/>
-    </div>
+  return(
+    barcode_gen("123123091248912")
   );
 }
 
